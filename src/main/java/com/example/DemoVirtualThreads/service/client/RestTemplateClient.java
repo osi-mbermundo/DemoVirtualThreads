@@ -77,7 +77,6 @@ public class RestTemplateClient {
 
     public void addLogs(String logMsg) {
         logger.info(logMsg);
-        System.out.println(logMsg);
     }
 
     @PreDestroy
